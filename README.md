@@ -7,7 +7,7 @@
 # Mesa & Mask - A Benchmark for Detecting and Classifying Deceptive Behaviors in LLMs
 
 
- ⏬ <a href="m&m/data/M&M_dataset.csv" target="_blank">Data</a> •   📃 <a href="m&m/README.md" target="_blank">Evaluation Framework</a>
+ ⏬ <a href="m_m/data/M&M_dataset.csv" target="_blank">Data</a> •   📃 <a href="m_m/README.md" target="_blank">Evaluation Framework</a>
 
 
 <a href="README_zh.md">中文</a> | <a href="README.md">English</a> 
@@ -67,11 +67,11 @@ Our evaluation of 22+ mainstream models reveals:
 
 ## Evaluation Framework
 
-For details about the evaluation framework, please see the [M&M Evaluation README](m&m/README.md).
+For details about the evaluation framework, please see the [M&M Evaluation README](m_m/README.md).
 
 ## 📝 Evaluation Prompts （Judge Model Prompts）
 
-The evaluation framework uses carefully designed prompts for judge models to assess deceptive behaviors. These prompts are located in the [`m&m/prompts/`](m&m/prompts/) directory.
+The evaluation framework uses carefully designed prompts for judge models to assess deceptive behaviors. These prompts are located in the [`m_m/prompts/`](m_m/prompts/) directory.
 
 <!-- ## Citation
 

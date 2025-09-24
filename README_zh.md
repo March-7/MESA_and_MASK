@@ -6,7 +6,7 @@
 
 # Mesa & Mask - 用于检测和分类大语言模型欺骗行为的基准测试
 
- ⏬ <a href="m&m/data/M&M_dataset.csv" target="_blank">数据集</a> •   📃 <a href="m&m/README.md" target="_blank">评估框架</a>
+ ⏬ <a href="m_m/data/M&M_dataset.csv" target="_blank">数据集</a> •   📃 <a href="m_m/README.md" target="_blank">评估框架</a>
 
 <a href="README_zh.md">中文</a> | <a href="README.md">English</a>
 
@@ -65,11 +65,11 @@
 
 ## 评估框架
 
-有关评估框架的详细信息，请参阅[M&M评估框架说明](m&m/README.md)。
+有关评估框架的详细信息，请参阅[M&M评估框架说明](m_m/README.md)。
 
 ## 📝 评估提示词（评判模型提示词）
 
-评估框架使用精心设计的提示词让评判模型评估欺骗行为。这些提示词位于[`m&m/prompts/`](m&m/prompts/)目录中。
+评估框架使用精心设计的提示词让评判模型评估欺骗行为。这些提示词位于[`m_m/prompts/`](m_m/prompts/)目录中。
 
 <!-- ## 引用
 

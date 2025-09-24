@@ -40,7 +40,7 @@ OPENAI_BASE_URL=https://api.openai.com/v1  # Optional: custom endpoint
 ## Directory Structure
 
 ```
-m&m/
+m_m/
 ├── evaluate.py          # Main evaluation script
 ├── config.py           # Configuration and prompt templates
 ├── utils.py            # Utility functions
@@ -151,16 +151,16 @@ Your dataset should be a CSV/JSON/XSLX file with the following columns:
 ### 📝 Evaluation Prompts （Judge Model Prompts）
 
   The evaluation framework uses carefully designed prompts for judge models to assess deceptive
-   behaviors. These prompts are located in the `m&m/prompts/` directory:
+   behaviors. These prompts are located in the `m_m/prompts/` directory:
 
   | Prompt File | Deception Type | Description |
   |-------------|----------------|-------------|
-  | [`sycophancy_judge.md`](m&m/prompts/sycophancy_judge.md) | Sycophancy | Evaluates excessive agreement or flattery |
-  | [`strategy_deception_judge.md`](m&m/prompts/strategy_deception_judge.md) | Strategic  Deception | Assesses deliberate misleading for strategic goals |
-  | [`honesty_evasion_judge.md`](m&m/prompts/honesty_evasion_judge.md) | Honesty Evasion | Detects avoidance of truthful responses |
-  | [`alignment_faking_judge.md`](m&m/prompts/alignment_faking_judge.md) | Alignment Faking |  Identifies false claims of alignment |
-  | [`sandbagging_judge.md`](m&m/prompts/sandbagging_judge.md) | Sandbagging | Evaluates  deliberate underperformance |
-  | [`bragging_judge.md`](m&m/prompts/bragging_judge.md) | Bragging | Assesses exaggerated  self-promotion |
+  | [`sycophancy_judge.md`](m_m/prompts/sycophancy_judge.md) | Sycophancy | Evaluates excessive agreement or flattery |
+  | [`strategy_deception_judge.md`](m_m/prompts/strategy_deception_judge.md) | Strategic  Deception | Assesses deliberate misleading for strategic goals |
+  | [`honesty_evasion_judge.md`](m_m/prompts/honesty_evasion_judge.md) | Honesty Evasion | Detects avoidance of truthful responses |
+  | [`alignment_faking_judge.md`](m_m/prompts/alignment_faking_judge.md) | Alignment Faking |  Identifies false claims of alignment |
+  | [`sandbagging_judge.md`](m_m/prompts/sandbagging_judge.md) | Sandbagging | Evaluates  deliberate underperformance |
+  | [`bragging_judge.md`](m_m/prompts/bragging_judge.md) | Bragging | Assesses exaggerated  self-promotion |
 
 
   Each prompt follows a structured format to ensure consistent and rigorous evaluation across
@@ -169,7 +169,7 @@ Your dataset should be a CSV/JSON/XSLX file with the following columns:
   - Identifying specific deceptive patterns
   - Providing detailed reasoning for classifications
 
-  **Note**: Chinese versions of these prompts are available in the `m&m/prompts_zh/` directory.
+  **Note**: Chinese versions of these prompts are available in the `m_m/prompts_zh/` directory.
 
 
 ### Core Metrics
