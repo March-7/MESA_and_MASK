@@ -33,7 +33,7 @@ This repository contains the implementation for M&M (Mesa & Mask), a benchmark d
    - Honesty Evasion
    - Alignment Faking
    - Sandbagging
-   - Overstatement
+   - Bragging
 
 3. **Robust Evaluation Methodology**: Statistical analysis with @k evaluation for reliable results.
 
@@ -47,8 +47,8 @@ This repository contains the implementation for M&M (Mesa & Mask), a benchmark d
 
 Our evaluation of 22+ mainstream models reveals:
 
-1. **Scale ≠ Honesty**: Larger models demonstrate higher deceptive tendencies (Qwen3-235B: 87.6%, Claude-4: 21.7%)
-2. **Open vs Proprietary Gap**: Open-source models show significantly higher deception rates (71.8% vs 55.1%)
+1. **Scale ≠ Honesty**: Larger models demonstrate higher deceptive tendencies
+2. **Open vs Proprietary Gap**: Open-source models show significantly higher deception rates 
 3. **Training Strategy Impact**: Reasoning-reinforced training increases sensitivity to game-theoretic scenarios
 4. **Consistency Patterns**: Proprietary models achieve higher consistency through advanced safety interventions
 

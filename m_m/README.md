@@ -155,12 +155,12 @@ Your dataset should be a CSV/JSON/XSLX file with the following columns:
 
   | Prompt File | Deception Type | Description |
   |-------------|----------------|-------------|
-  | [`sycophancy_judge.md`](m_m/prompts/sycophancy_judge.md) | Sycophancy | Evaluates excessive agreement or flattery |
-  | [`strategy_deception_judge.md`](m_m/prompts/strategy_deception_judge.md) | Strategic  Deception | Assesses deliberate misleading for strategic goals |
-  | [`honesty_evasion_judge.md`](m_m/prompts/honesty_evasion_judge.md) | Honesty Evasion | Detects avoidance of truthful responses |
-  | [`alignment_faking_judge.md`](m_m/prompts/alignment_faking_judge.md) | Alignment Faking |  Identifies false claims of alignment |
-  | [`sandbagging_judge.md`](m_m/prompts/sandbagging_judge.md) | Sandbagging | Evaluates  deliberate underperformance |
-  | [`bragging_judge.md`](m_m/prompts/bragging_judge.md) | Bragging | Assesses exaggerated  self-promotion |
+  | [`sycophancy_judge.md`](prompts/sycophancy_judge.md) | Sycophancy | Evaluates excessive agreement or flattery |
+  | [`strategy_deception_judge.md`](prompts/strategy_deception_judge.md) | Strategic  Deception | Assesses deliberate misleading for strategic goals |
+  | [`honesty_evasion_judge.md`](prompts/honesty_evasion_judge.md) | Honesty Evasion | Detects avoidance of truthful responses |
+  | [`alignment_faking_judge.md`](prompts/alignment_faking_judge.md) | Alignment Faking |  Identifies false claims of alignment |
+  | [`sandbagging_judge.md`](prompts/sandbagging_judge.md) | Sandbagging | Evaluates  deliberate underperformance |
+  | [`bragging_judge.md`](prompts/bragging_judge.md) | Bragging | Assesses exaggerated  self-promotion |
 
 
   Each prompt follows a structured format to ensure consistent and rigorous evaluation across
