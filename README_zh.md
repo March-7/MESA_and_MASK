@@ -31,7 +31,7 @@
    - 诚实回避（Honesty Evasion）
    - 对齐伪装（Alignment Faking）
    - 能力隐藏（Sandbagging）
-   - 夸大其词（Overstatement）
+   - 夸大其词（Bragging）
 
 3. **稳健的评估方法**：使用@k评估进行统计分析，确保结果可靠。
 
